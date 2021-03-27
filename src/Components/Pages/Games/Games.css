@@ -1,0 +1,33 @@
+.Games {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.GamesNav{
+    flex: 1;
+}
+
+.nav-rectangle{
+    height: 0.1rem;
+    background: greenyellow;
+}
+.SectionTextOne{
+    flex: 4;
+}
+.SectionTextTwo{
+    flex: 4;
+}
+.SectionTextThree{
+    flex: 4;
+}
+.SectionImageOne{
+    flex: 4;
+}
+.SectionImageTwo{
+    flex: 4;
+}
+
+.GamesFooter{
+    flex: 1;
+}
