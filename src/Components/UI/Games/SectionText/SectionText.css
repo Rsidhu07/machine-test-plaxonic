@@ -1,0 +1,32 @@
+.section-text{
+    width: 40%;
+    position: relative;
+}
+
+.title-1-grey,.title-1-green{
+    font-size: 3rem;
+    position: absolute;
+    top: 0.5%;
+    font-family: Anton;
+}
+
+.title-1-grey{
+    color: rgba(0,0,0,0.3);
+}
+
+.title-1-green{
+    color: #87EA00;
+}
+
+.title-2{
+    font-size: 6rem;
+    font-family: Anton;
+}
+
+.paragraph-1{
+    font-size: 1.6rem;
+}
+
+.paragraph-2{
+    font-size: 1.6rem;
+}

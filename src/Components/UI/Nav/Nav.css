@@ -15,9 +15,15 @@ header{
 
 }
 
+.nav-logo{
+    margin-left: 2rem;
+    padding: 0.4rem;
+}
+
 li{
     font-size: 1.8rem;
     font-family: Epilogue;
     font-style: normal;
     font-weight: normal;
+    cursor: pointer;
 }

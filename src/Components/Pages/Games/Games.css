@@ -1,33 +1,89 @@
 .Games {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
-.GamesNav{
-    flex: 1;
+.GamesNav {
+  flex: 1;
 }
 
-.nav-rectangle{
-    height: 0.1rem;
-    background: greenyellow;
+.nav-rectangle {
+  height: 0.1rem;
+  background: rgba(229,229,229,1);
 }
-.SectionTextOne{
-    flex: 4;
+.SectionTextOne {
+  flex: 4;
 }
-.SectionTextTwo{
-    flex: 4;
+.SectionTextTwo {
+  flex: 4;
 }
-.SectionTextThree{
-    flex: 4;
+.SectionTextThree {
+  flex: 4;
 }
-.SectionImageOne{
-    flex: 4;
+.SectionImageOne {
+  flex: 4;
 }
-.SectionImageTwo{
-    flex: 4;
+.SectionImageTwo {
+  flex: 4;
 }
 
-.GamesFooter{
-    flex: 1;
+.GamesFooter {
+  flex: 1;
 }
+
+.games-section-text-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-images {
+  width: 40%;
+  position: relative;
+}
+
+.rectangle-1 {
+  position: absolute;
+  right: 8%;
+  top: 15%;
+}
+.rectangle-2 {
+  position: absolute;
+  top: 36%;
+  left: -10%;
+  z-index: 2;
+}
+.rectangle-3 {
+  position: absolute;
+  right: 22%;
+  top: 45%;
+}
+.rectangle-4 {
+  position: absolute;
+  right: -9%;
+  top: 11%;
+}
+
+.ellipse {
+  position: absolute;
+  bottom: 52%;
+  left: -22%;
+}
+
+.overlay-banner1 {
+    position: absolute;
+    right: 9%;
+    top: 36%;
+  }
+  
+  .overlay-banner2 {
+    position: absolute;
+    top: 68%;
+    left: 7%;
+  }
+
+  .section-image-1-title{
+    text-align: center;
+    font-family: Anton;
+    font-size: 3rem;
+  }

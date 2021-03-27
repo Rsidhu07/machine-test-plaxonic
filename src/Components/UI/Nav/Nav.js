@@ -6,7 +6,7 @@ const Nav = () => {
     return (
         <>
             <header>
-                <img src={logo} alt='logo'/>
+                <img className='nav-logo' src={logo} alt='logo'/>
                 <ul className='navigation'>
                     <li>Games</li>
                     <li>Gallery</li>
